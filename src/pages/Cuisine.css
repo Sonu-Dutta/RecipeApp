@@ -1,0 +1,55 @@
+.Grid {
+    /* background-color: aqua; */
+    width: 100vw;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+
+.card-cu img {
+    /* height: 100%; */
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+/* .card-cu a{
+    text-decoration: none;
+} */
+.card-cu h4 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.kancha {
+    font-family: "Raleway";
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: larger;
+    color: black;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10%; */
+}
+
+.title-link {
+    color: rgb(69, 69, 69);
+
+
+}
+
+@media(max-width:678px) {
+
+    .card-cu img {
+        width: 100%;
+        /* border-radius: 1rem; */
+
+    }
+}

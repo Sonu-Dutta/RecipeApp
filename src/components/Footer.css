@@ -1,0 +1,114 @@
+.whole-Footer {
+    /* height: 10rem; */
+    background-color: gray;
+    color: white;
+    /* width: 10%; */
+    margin-top: 10px;
+    display: flex;
+    padding: 3rem;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.foot-left {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    font-weight: 400;
+    width: 100vw;
+    /* background-color: aqua; */
+    color: white;
+    /* border: 2px solid orange; */
+
+}
+
+.foottest {
+    /* border: 2px solid yellow; */
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    font-family: "Raleway";
+
+    padding: 2rem;
+
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logo {
+    width: 50px;
+}
+
+.foot-right p {
+    /* border: 2px solid aqua; */
+    /* padding: 1rem; */
+    /* margin-left: 1rem; */
+    font-family: "Raleway";
+    padding: 2rem;
+    /* width: 10rem; */
+    margin-top: 5px;
+    /* height: 1.5rem; */
+    color: rgb(188, 187, 187);
+}
+
+.foot-right {
+    position: absolute;
+    top: 4rem;
+    /* border: 2px solid rgb(102, 254, 52); */
+    display: flex;
+    right: 4rem;
+    gap: 1rem;
+    /* width: 20%; */
+    /* border: 2px solid rgb(0, 255, 60); */
+    color: rgb(188, 187, 187);
+    /* background-color: aquamarine; */
+
+}
+
+/* .icons {
+    color: rgb(249, 240, 240);
+} */
+
+@media(max-width:570px) {
+
+    .whole-Footer {
+        background-color: gray;
+    }
+
+    .foot-right {
+        flex-direction: column;
+        /* background-color: rgb(70, 65, 65); */
+        width: 100vw;
+        top: 20%;
+        /* text-align: center; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 4rem; */
+        width: 4rem;
+        right: 0;
+        /* right: 27%; */
+        /* height: 2rem; */
+    }
+
+    .foottest {
+        color: white;
+    }
+
+    .icons {
+        background-color: rgb(107, 96, 96);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        /* color: black; */
+        align-items: center;
+        justify-content: center;
+    }
+}

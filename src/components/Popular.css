@@ -1,0 +1,85 @@
+.wrapper {
+    margin: 4rem auto;
+    padding: 0 4rem;
+    /* font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 6rem; */
+
+}
+
+.tit {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+
+.agnipat {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    min-height: 15rem;
+    border-radius: .5rem;
+    /* background-color: aqua; */
+    margin: 2rem 0rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.po-img {
+    /* height: 20rem; */
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+p {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: 0%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pics {
+    width: 80px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gradient {
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.5));
+}
+
+@media(max-width:570px) {
+    .agnipat {
+        width: 20rem;
+        /* border: 2px solid red; */
+        overflow: hidden;
+    }
+
+    p {
+        left: 5px;
+        transform: scale(.9);
+    }
+}

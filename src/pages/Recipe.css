@@ -1,0 +1,125 @@
+.Detailwrapper {
+    display: flex;
+    width: 100vw;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    line-height: 2.5rem;
+}
+
+ul {
+    margin-top: 2rem;
+}
+
+.Button {
+    padding: 1rem 2rem;
+    height: 4rem;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    /* margin-right: 2rem; */
+    font-weight: 600;
+    margin-left: 2rem;
+
+}
+
+.Recipe-img {
+    /* height: 15rem; */
+    width: 100%;
+}
+
+.Recipe-left {
+    margin-top: 7rem;
+    width: 23rem;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.Recipe-left h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Info {
+    /* margin-left: 5rem; */
+    padding: 1rem;
+    /* display: flex; */
+    width: 30rem;
+    /* background-color: bisque; */
+
+}
+
+.ll {
+    display: flex;
+}
+
+.active {
+    padding: 1rem 2rem;
+    /* height: 4rem; */
+    color: rgb(241, 239, 239);
+    background-color: white;
+    /* border: 3px solid black; */
+    /* margin-right: 2rem; */
+    font-weight: 600;
+    background-color: rgb(225, 87, 12);
+
+}
+
+.sum {
+    width: 30rem;
+    overflow: scroll;
+    height: 16rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    /* border: 2px solid red; */
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+@media(max-width:821px) {
+    .Detailwrapper {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .ll {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Info,
+    .Recipe-img,
+    .Recipe-left {
+        margin: 0;
+    }
+}
+
+@media(max-width:606px) {
+    .Recipe-left {
+        width: 23rem;
+    }
+
+    .Info,
+    .sum {
+        overflow: visible;
+        width: 23rem;
+        height: 100%;
+        text-align: justify;
+        margin-right: 8%;
+    }
+}

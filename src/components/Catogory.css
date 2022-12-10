@@ -1,0 +1,36 @@
+.List {
+    display: flex;
+    justify-content: center;
+
+}
+
+.List h4 {
+    border: 2px solid blueviolet;
+}
+
+.Navlink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 4px; */
+    /* margin-right: 2rem; */
+    text-decoration: none;
+    /* background-color: rgb(0, 70, 127, .9); */
+    width: 5rem !important;
+    height: 5rem !important;
+
+    cursor: pointer;
+    /* transform: scale(0.7); */
+}
+
+.Navlink h4 {
+    color: aliceblue;
+}
+
+
+svg {
+    color: aliceblue;
+    font-size: 1.5rem;
+
+}
