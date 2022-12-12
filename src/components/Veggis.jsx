@@ -35,12 +35,12 @@ export default function Veggis() {
 
   return (
     <div>
-      <div className="wrapper">
+      <div className="wrapper ">
       <div className="heading">
         <img alt="girl" src={dish} className="pics"/>
         <div className="tit">Picks for the day</div>
 </div>
-        <Splide className="agnipath"
+        <Splide className="agnipat "
           options={{
             perPage: 3,
             // arrows: true,
@@ -51,11 +51,12 @@ export default function Veggis() {
               768:{
                 perPage:2,
                 gap:".7rem",
-                height:"100%"
+                width:"96%"
               },
               480:{
                 perPage:1,
-                gap:"0"
+                gap:"0",
+                // width:"100%"
   
               }
             }
@@ -64,11 +65,11 @@ export default function Veggis() {
           {Veggis.map((recipe) => {
             return (
               <SplideSlide key={recipe.id}>
-                <div className="card ">
+                <div className="card">
                   {/* <div className="Gradient"> */}
                   <Link to={"/recipe/" + recipe.id}>
                     <p>{recipe.title}</p>
-                    <img src={recipe.image} alt="Img" />
+                    <img src={recipe.image} alt="Img"  className="po-img"/>
                   </Link>
 
                   {/* </div> */}

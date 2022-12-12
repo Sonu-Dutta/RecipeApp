@@ -72,6 +72,16 @@ ul {
 
 }
 
+.types {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 239, 239);
+    font-weight: 600;
+    background-color: rgb(234, 154, 110);
+}
+
 .sum {
     width: 30rem;
     overflow: scroll;

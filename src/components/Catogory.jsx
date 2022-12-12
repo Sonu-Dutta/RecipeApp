@@ -32,7 +32,7 @@ export default function Catogory() {
         <h4>American</h4>
       </NavLink>
       <NavLink
-        className={activetab === "acti2" ? "acti" : "Navlink"}
+        className={activetab === "types" ? "acti" : "Navlink"}
         onClick={() => {
           setactivetab("acti2");
         }}

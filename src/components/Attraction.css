@@ -18,7 +18,7 @@
 
 .Att-img {
     width: 40rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     overflow: hidden;
 
     height: 25rem;
@@ -38,7 +38,6 @@
 }
 
 .Att-txt {
-    border: 2px solid violet;
     font-size: xx-large;
     display: flex;
     justify-content: center;
@@ -79,6 +78,5 @@
         /* background-color: navajowhite; */
         padding: 2.35rem .3rem;
         font-size: .9rem;
-        border: 2px solid lawngreen;
     }
 }
