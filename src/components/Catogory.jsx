@@ -11,46 +11,46 @@ export default function Catogory() {
   return (
     <div className="List">
       <NavLink
-        className={activetab === "acti" ? "acti" : "Navlink"}
+        className={activetab === "acti" ? "types" : "Navlink"}
         onClick={() => {
           setactivetab("acti");
         }}
         to={"/cuisine/Italian"}
       >
-        <FaPizzaSlice />
+        <FaPizzaSlice  className={activetab === "acti" ? "types" : "Navlink"}/>
         <h4>Italian</h4>
       </NavLink>
 
       <NavLink
-        className={activetab === "acti1" ? "acti" : "Navlink"}
+        className={activetab === "acti1" ? "types" : "Navlink"}
         onClick={() => {
           setactivetab("acti1");
         }}
         to={"/cuisine/American"}
       >
-        <FaHamburger />
+        <FaHamburger  className={activetab === "acti1" ? "types" : "Navlink"}/>
         <h4>American</h4>
       </NavLink>
       <NavLink
-        className={activetab === "types" ? "acti" : "Navlink"}
+        className={activetab === "acti2" ? "types" : "Navlink"}
         onClick={() => {
           setactivetab("acti2");
         }}
         to={"/cuisine/Thai"}
       >
-        <GiNoodles />
+        <GiNoodles  className={activetab === "acti2" ? "types" : "Navlink"}/>
 
         <h4>Thai</h4>
       </NavLink>
 
       <NavLink
-        className={activetab === "acti3" ? "acti" : "Navlink"}
+        className={activetab === "acti3" ? "types" : "Navlink"}
         onClick={() => {
           setactivetab("acti3");
         }}
         to={"/cuisine/Japanese"}
       >
-        <GiChopsticks />
+        <GiChopsticks  className={activetab === "acti3" ? "types" : "Navlink"}/>
         <h4>Japanese</h4>
       </NavLink>
     </div>

@@ -9,7 +9,7 @@ function Attraction() {
 
     const getInfo =async ()=>{
         const data = await fetch(
-            `https://api.spoonacular.com/recipes/complexSearch?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0&query=burger`
+            `https://api.spoonacular.com/recipes/complexSearch?apiKey=b7905d553121402897b650a65594f1cc&query=burger`
             // `https://api.spoonacular.com/food/menuItems/search?apiKey=737e9f1e5c544232a55df8cb65629ff4&query=burger&number=2`
 
         );

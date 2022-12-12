@@ -11,7 +11,7 @@ export default function Recipe() {
   const params = useParams();
   const fetchdetails = async () => {
     const data = await axios.get(
-      `https://api.spoonacular.com/recipes/${params.name}/information?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0`
+      `https://api.spoonacular.com/recipes/${params.name}/information?apiKey=b7905d553121402897b650a65594f1cc`
     );
     setingre(data.data.extendedIngredients);
 

@@ -11,7 +11,7 @@ export default function Searched() {
 
   const getSearched = async (name) => {
     const data = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0&query=${name}`
+      `https://api.spoonacular.com/recipes/complexSearch?apiKey=b7905d553121402897b650a65594f1cc&query=${name}`
     );
     const ex = await data.json();
 

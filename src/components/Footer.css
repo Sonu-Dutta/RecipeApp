@@ -71,9 +71,11 @@
 
 }
 
-/* .icons {
-    color: rgb(249, 240, 240);
-} */
+.icons :hover {
+    font-size: 1.6rem;
+    color: orange;
+    /* transform: scale(1.08) rotate(360deg); */
+}
 
 @media(max-width:570px) {
 

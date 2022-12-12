@@ -28,7 +28,7 @@
 }
 
 .Logo-right {
-    background-color: var(--secondary);
+    /* background-color: var(--secondary); */
     padding: 5px;
     margin-right: 1rem;
     display: flex;
@@ -36,7 +36,6 @@
     align-items: center;
     color: rgb(116, 114, 114);
     font-size: larger;
-    border: 2px solid green;
     gap: 10px;
     border-radius: 10px;
 }

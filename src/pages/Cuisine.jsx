@@ -12,7 +12,7 @@ export default function Cuisine() {
 
   const getCuisine = async (name) => {
     const data = await fetch(
-      `https://api.spoonacular.com/recipes/complexSearch?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0&cuisine=${name}`
+      `https://api.spoonacular.com/recipes/complexSearch?apiKey=b7905d553121402897b650a65594f1cc&cuisine=${name}`
     );
     const ex = await data.json();
     // console.log(ex);

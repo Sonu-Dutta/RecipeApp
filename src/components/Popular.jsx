@@ -36,7 +36,7 @@ export default function Popular() {
       setpopular(JSON.parse(check));
     } else {
       const Response = await axios.get(
-        "https://api.spoonacular.com/recipes/random?apiKey=0b9fb42baf9a443d8ff016efc8ae93d0&number=9"
+        "https://api.spoonacular.com/recipes/random?apiKey=b7905d553121402897b650a65594f1cc&number=9"
       );
       localStorage.setItem("Popular", JSON.stringify(Response.data.recipes));
 
